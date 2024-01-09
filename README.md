@@ -1,6 +1,6 @@
 # <p align="center">VBOX LapTimer (RACELOGIC) SimHub Dashboard</p>
 ## <p align="center">VBOX LapTimer, aka Racelogic, replica dashboard for SimHub</p>
-![alt text](https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.png?raw=true)
+<p align="center"><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.png?raw=true" alt="menuscreen"/></p>
 
 A detailed replica of VBOX Motorsport's LapTimer device, otherwise known as a Racelogic, for SimHub. To the extent that is possible and reasonable, all display modes of the device are available, including customizable settings such as decimal places, speed unit, inverted screen, and more. The full list of features including how to use the dashboard are below.
 
@@ -10,7 +10,7 @@ A detailed replica of VBOX Motorsport's LapTimer device, otherwise known as a Ra
 
 ### Live Speed
 Displays the current speed in realtime in kilometres per hour (km/h) or miles per hour (mph)
-
+c
 ### Max Speed
 Displays this session's highest top speed. This value is rolling.
 
