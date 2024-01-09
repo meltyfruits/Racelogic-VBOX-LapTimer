@@ -1,0 +1,41 @@
+{
+  "Category": null,
+  "Title": "VBOX LapTimer",
+  "Description": null,
+  "Author": null,
+  "ScreenCount": 8.0,
+  "InGameScreensIndexs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "IdleScreensIndexs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "MainPreviewIndex": 1,
+  "IsOverlay": false,
+  "Width": 1200.0,
+  "Height": 500.0,
+  "OverlaySizeWarning": true,
+  "MetadataVersion": 2.0,
+  "EnableOnDashboardMessaging": true,
+  "PitScreensIndexs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ]
+}
