@@ -52,21 +52,23 @@ Displays the current delta to the session best and a graph representing that tim
   * [x] MPH units
   * [ ] kn units
 * [ ] **Speed Bar**
-  * [ ] Center Speed setting
+  * [x] Center Speed setting
   * [ ] Speed Display Range setting
   * [ ] Inverted screen
   * [x] km/h units
   * [x] MPH units
   * [ ] kn units
 * [ ] **Lap Count**
-  * [ ] Inverted screen
+  * [x] Total Laps count
+  * [x] Current Laps count
+  * [x] Inverted screen
 * [ ] **Predictive Lap Timing**
   * [x] Waiting for Start Line screen and logic
   * [x] Creating Reference Lap screen and logic
   * [ ] Delta-T Speed Mode
     * [ ] Speed setting
     * [ ] Time Delay setting
-  * [ ] Final lap time and split from session best
+  * [x] Final lap time and split from session best
   * [x] Inverted screen
 * [ ] **Lap Timing**
   * [x] One decimal place
@@ -93,9 +95,10 @@ Displays the current delta to the session best and a graph representing that tim
 * [ ] Outline text solution
 * [ ] Documentation
 * [ ] Code optimization
-* [ ] Add Knots speed metric
-* [ ] Configure LEDs
-* [ ] Update placeholder text (from 9s)
+* [ ] Add Knots (kn) speed metric
+* [ ] Configure LEDs (may not be able to replicate Delta-V)
+* [x] Update placeholder text (from 9s)
+* [ ] Display mode splash screns (when a screen is switched to)
 
 ## Credits
 - VBOX Motorsport (<https://vboxmotorsport.co.uk>)
