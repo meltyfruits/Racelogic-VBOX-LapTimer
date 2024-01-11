@@ -9,15 +9,34 @@ A detailed replica of VBOX Motorsport's LapTimer device, otherwise known as a Ra
 ### Menu & Settings
 
 ### Live Speed
-Displays the current speed in realtime in kilometres per hour (km/h) or miles per hour (mph)
-c
++ Displays the current speed in realtime in kilometres per hour (km/h) or miles per hour (mph)
+> #### Overview
+>
+> + Can display zero, one, or two decimal places. *E.g., 123, 123.4, 123.45.*
+> > + The number of decimal places shown can be set in the ***settings.ini*** file:
+> > `SpeedDecimalPlaces=0  ; 0, 1, 2`
+
 ### Max Speed
-Displays this session's highest top speed. This value is rolling.
++ Displays this session's highest top speed. This value is rolling.
+> #### Overview
+>
+> + Can display zero, one, or two decimal places. *E.g., 123, 123.4, 123.45.*
+> > + The number of decimal places shown can be set in the ***settings.ini*** file:
+> > `SpeedDecimalPlaces=0  ; 0, 1, 2`
 
 ### Speed Bar
 
 ### Predictive Lap Timing
-Displays the current delta to the session best and a graph representing that time graphically. On the first lap, the WAITING FOR START LINE screen will be displayed. After completing the first lap, the CREATING REFERENCE LAP screen will display. After crossing the finish line a second time, the current lap delta will be displayed. Each subsequent time the finish line is crossed the last lap time and the delta to the seesion best are displayed. 
++ Displays the current delta to the session best and a graph representing that time graphically.
+> #### Overview
+> 
+> + On the first lap, the *WAITING FOR START LINE* screen will be displayed.
+> 
+> + After completing the first lap, the *CREATING REFERENCE LAP* screen will display. A rolling lap time (current lap time) will be displayed as well as two teal-coloured LEDs.
+>
+> + After crossing the start line a second time, the current lap delta will be displayed.
+>
+> + Each subsequent time the start line is crossed the last lap time and the delta (Delta-T/ΔT) to the seesion best are displayed. 
 
 ## Dependencies
 - [SwitchableProperties by MorGuux](https://github.com/MorGuux/SwitchableProperties)
