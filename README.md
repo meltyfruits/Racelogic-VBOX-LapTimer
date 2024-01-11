@@ -14,6 +14,7 @@ A detailed replica of VBOX Motorsport's LapTimer device, otherwise known as a Ra
 >
 > + Can display zero, one, or two decimal places. *E.g., 123, 123.4, 123.45.*
 > > + The number of decimal places shown can be set in the ***settings.ini*** file:
+> >
 > > `SpeedDecimalPlaces=0  ; 0, 1, 2`
 
 ### Max Speed
@@ -22,6 +23,7 @@ A detailed replica of VBOX Motorsport's LapTimer device, otherwise known as a Ra
 >
 > + Can display zero, one, or two decimal places. *E.g., 123, 123.4, 123.45.*
 > > + The number of decimal places shown can be set in the ***settings.ini*** file:
+> >
 > > `SpeedDecimalPlaces=0  ; 0, 1, 2`
 
 ### Speed Bar
