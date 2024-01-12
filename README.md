@@ -40,7 +40,7 @@ A detailed replica of VBOX Motorsport's LapTimer device, otherwise known as a Ra
 >
 > + Each subsequent time the start line is crossed the last lap time and the delta (Delta-T/ΔT) to the seesion best are displayed. 
 
-## Dependencies
+## Dependencies (NOT IMPLEMENTED YET)
 - [SwitchableProperties by MorGuux](https://github.com/MorGuux/SwitchableProperties)
 
 ## References
@@ -53,10 +53,11 @@ A detailed replica of VBOX Motorsport's LapTimer device, otherwise known as a Ra
 - A VBOX LapTimer (Racelogic) on my sim rig | Demo and install | €1500 Giveaway | 4K by Laurence Dusoswa [(YouTube)](https://youtu.be/Wd3UMcYxYKM?si=IL_irQZFgNUqDuUu)
 - REAL RACE CAR TECH FOR YOUR SIM! - Racelogic VBox Sim Pack Review by Boosted Media [(YouTube)](https://youtu.be/1gi8fLCZEsE?si=Ua8_JmaIl8o7QGbv)
 
-## To do
+## Development
 ### Core
 * [ ] **Menu/Settings screens**
 * [ ] **Live Speed**
+  * [ ] Display Mode splash screen
   * [x] No decimal places
   * [x] One decimal place
   * [x] Two decimal places
@@ -65,6 +66,7 @@ A detailed replica of VBOX Motorsport's LapTimer device, otherwise known as a Ra
   * [x] MPH units
   * [ ] kn units
 * [ ] **Max Speed**
+  * [ ] Display Mode splash screen
   * [x] No decimal places
   * [x] One decimal place
   * [x] Two decimal places
@@ -73,31 +75,43 @@ A detailed replica of VBOX Motorsport's LapTimer device, otherwise known as a Ra
   * [x] MPH units
   * [ ] kn units
 * [ ] **Speed Bar**
+  * [ ] Display Mode splash screen
   * [x] Center Speed setting
   * [ ] Speed Display Range setting
-  * [ ] Inverted screen
+  * [x] Inverted screen
   * [x] km/h units
   * [x] MPH units
   * [ ] kn units
 * [ ] **Lap Count**
+  * [ ] Display Mode splash screen
   * [x] Total Laps count
   * [x] Current Laps count
   * [x] Inverted screen
 * [ ] **Predictive Lap Timing**
+  * [ ] Display Mode splash screen
   * [x] Waiting for Start Line screen and logic
   * [x] Creating Reference Lap screen and logic
+  * [ ] Bar Graph Time setting
   * [ ] Delta-T Speed Mode
     * [ ] Speed setting
     * [ ] Time Delay setting
+  * [ ] Delta-V LEDs
+    * [x] Delta-V calculations
   * [x] Final lap time and split from session best
   * [x] Inverted screen
 * [ ] **Lap Timing**
+  * [ ] Display Mode splash screen
   * [x] One decimal place
   * [x] Two decimal places
+  * [ ] Current Lap
   * [ ] Final lap time and split from session best
   * [ ] Split Time Display Period setting
+    * [ ] 02.0s
+    * [ ] 05.0s
+    * [ ] 10.0s
   * [ ] Split-to-Split Time setting
-  * [ ] Rolling Lap Time setting
+  * [x] Rolling Lap Time setting
+  * [ ] Static Lap Time setting
   * [ ] Inverted screen
 
 ### Sim Support
@@ -107,7 +121,7 @@ A detailed replica of VBOX Motorsport's LapTimer device, otherwise known as a Ra
 * [x] iRacing
 * [ ] rFactor 2
       
-### Development
+### Misc
 * [x] 2.4:1 ratio (120mm x 50mm) screens
 * [x] Template screen
 * [x] From scratch Racelogic logo
@@ -117,9 +131,9 @@ A detailed replica of VBOX Motorsport's LapTimer device, otherwise known as a Ra
 * [ ] Documentation
 * [ ] Code optimization
 * [ ] Add Knots (kn) speed metric
-* [ ] Configure LEDs (may not be able to replicate Delta-V)
+* [ ] Configure LEDs
 * [x] Update placeholder text (from 9s)
-* [ ] Display mode splash screns (when a screen is switched to)
+* [ ] Night mode
 
 ## Credits
 - VBOX Motorsport (<https://vboxmotorsport.co.uk>)
