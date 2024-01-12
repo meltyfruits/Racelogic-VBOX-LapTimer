@@ -91,7 +91,15 @@ A detailed replica of VBOX Motorsport's LapTimer device, otherwise known as a Ra
   * [ ] Display Mode splash screen
   * [x] Waiting for Start Line screen and logic
   * [x] Creating Reference Lap screen and logic
-  * [ ] Bar Graph Time setting
+  * [ ] Delta T Bar Range setting
+    * [ ] 2s
+    * [ ] 5s
+    * [ ] 10s
+    * [ ] 30s
+  * [ ] Delta V Light Range setting
+    * [ ] 2 km/h
+    * [ ] 5 km/h
+    * [ ] 10 km/h
   * [ ] Delta-T Speed Mode
     * [ ] Speed setting
     * [ ] Time Delay setting
