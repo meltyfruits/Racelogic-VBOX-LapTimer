@@ -77,7 +77,7 @@ A detailed replica of VBOX Motorsport's LapTimer device, otherwise known as a Ra
 * [ ] **Speed Bar**
   * [ ] Display Mode splash screen
   * [x] Center Speed setting
-  * [ ] Speed Display Range setting
+  * [x] Speed Display Range setting
   * [x] Inverted screen
   * [x] km/h units
   * [x] MPH units
@@ -91,11 +91,11 @@ A detailed replica of VBOX Motorsport's LapTimer device, otherwise known as a Ra
   * [ ] Display Mode splash screen
   * [x] Waiting for Start Line screen and logic
   * [x] Creating Reference Lap screen and logic
-  * [ ] Delta T Bar Range setting
-    * [ ] 2s
-    * [ ] 5s
-    * [ ] 10s
-    * [ ] 30s
+  * [x] Delta T Bar Range setting
+    * [x] 2s
+    * [x] 5s
+    * [x] 10s
+    * [x] 30s
   * [ ] Delta V Light Range setting
     * [ ] 2 km/h
     * [ ] 5 km/h
@@ -111,15 +111,15 @@ A detailed replica of VBOX Motorsport's LapTimer device, otherwise known as a Ra
   * [ ] Display Mode splash screen
   * [x] One decimal place
   * [x] Two decimal places
-  * [ ] Current Lap
-  * [ ] Final lap time and split from session best
+  * [x] Current Lap
+  * [x] Final lap time and split from session best
   * [ ] Split Time Display Period setting
     * [ ] 02.0s
     * [ ] 05.0s
     * [ ] 10.0s
   * [ ] Split-to-Split Time setting
   * [x] Rolling Lap Time setting
-  * [ ] Static Lap Time setting
+  * [x] Static Lap Time setting
   * [ ] Inverted screen
 
 ### Sim Support
