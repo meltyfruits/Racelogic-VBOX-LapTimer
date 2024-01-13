@@ -5,6 +5,13 @@
 A detailed replica of VBOX Motorsport's LapTimer device, otherwise known as a Racelogic, for SimHub. To the extent that is possible and reasonable, all display modes of the device are available, including customizable settings such as decimal places, speed unit, inverted screen, and more. The full list of features including how to use the dashboard are below.
 
 ### Overall 
+The following display modes have been implemented and are available:
++ Live Speed
++ Max Speed
++ Speed Bar
++ Lap Count
++ Predictive Lap Timing
++ Lap Timing
 
 ### Menu & Settings
 
