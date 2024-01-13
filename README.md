@@ -27,6 +27,18 @@ A detailed replica of VBOX Motorsport's LapTimer device, otherwise known as a Ra
 > > `SpeedDecimalPlaces=0  ; 0, 1, 2`
 
 ### Speed Bar
++ Displays the current speed in realtime in kilometres per hour (km/h) or miles per hour (mph) and a graph representing a positive and negative difference from the selected center speed.
+> #### Overview
+>
+> + The center speed of the graph can be set in the ***settings.ini*** file:
+>
+> `CenterSpeed=370 ; Any number between 10 and 1000 in increments of 10, e.g., 150, 160, 170`
+> > The value rendered on the dashboard will match whatever speed unit is selected, e.g., Metric. `CenterSpeed` itself doesn't need to specify km/h, mph, or kn values. 
+>
+> + The speed disply range (+/-) of the graph can be set in the ***settings.ini*** file:
+>
+> `SpdDisplayRange=010 ; 005, 010, 020, 030, 040, 050, 060, 070, 080, 090, 100`
+> > The value rendered on the dashboard will match whatever speed unit is selected, e.g., Metric. `SpdDisplayRange` itself doesn't need to specify km/h, mph, or kn values. 
 
 ### Predictive Lap Timing
 + Displays the current delta to the session best and a graph representing that time graphically.
@@ -120,7 +132,7 @@ A detailed replica of VBOX Motorsport's LapTimer device, otherwise known as a Ra
   * [ ] Split-to-Split Time setting
   * [x] Rolling Lap Time setting
   * [x] Static Lap Time setting
-  * [ ] Inverted screen
+  * [x] Inverted screen
 
 ### Sim Support
 * [x] Assetto Corsa
