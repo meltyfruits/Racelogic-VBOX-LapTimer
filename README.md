@@ -90,6 +90,7 @@ A detailed replica of VBOX Motorsport's LapTimer device, otherwise known as a Ra
 * [ ] **Predictive Lap Timing**
   * [ ] Display Mode splash screen
   * [x] Waiting for Start Line screen and logic
+    * [ ] Distance to start calculation
   * [x] Creating Reference Lap screen and logic
   * [ ] Delta T Bar Range setting
     * [ ] 2s
