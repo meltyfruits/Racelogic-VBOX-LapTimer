@@ -12,6 +12,10 @@ The following display modes have been implemented and are available:
 + Lap Count
 + Predictive Lap Timing
 + Lap Timing
++ Lateral G
++ Lateral G Bar
++ Longitudinal G
++ Longitudinal G Bar
 
 ### Menu & Settings
 
@@ -57,7 +61,22 @@ The following display modes have been implemented and are available:
 >
 > + After crossing the start line a second time, the current lap delta will be displayed.
 >
-> + Each subsequent time the start line is crossed the last lap time and the delta (Delta-T/ΔT) to the seesion best are displayed. 
+> + Each subsequent time the start line is crossed the last lap time and the delta (Delta-T/ΔT) to the seesion best are displayed.
+
+### Lap Timing
++ placeholder
+  
+### Lateral G
++ placeholder
+
+### Lateral G Bar
++ placeholder
+
+### Longitudinal G
++ placeholder
+
+### Longitudinal G Bar
++ placeholder
 
 ## Dependencies (NOT IMPLEMENTED YET)
 - [SwitchableProperties by MorGuux](https://github.com/MorGuux/SwitchableProperties)
