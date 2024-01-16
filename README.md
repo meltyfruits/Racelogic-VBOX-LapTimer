@@ -96,12 +96,12 @@ The following display modes have been implemented and are available:
 > > `SpeedDecimalPlaces=0  ; 0, 1, 2`
 >
 > + Can display the last lap delta for a variable amount of time. *E.g., 2s, 5s, 10s, 15s, 20s*
-> > + The length of time can be set in the ***settings.ini*** file:
+> > + The length of time the split is displayed can be set in the ***settings.ini*** file:
 > >
 > > `SplitTimeDisplayPeriod=05.0  ; 02.0, 05.0, 10.0, 15.0, 20.0 - time in seconds`
 >
 > + Can display a rolling current lap time or a static last lap time.
-> > + The setting for rolling or static can be set in the ***settings.ini*** file:
+> > + The setting for rolling or static timing can be set in the ***settings.ini*** file:
 > >
 > > `RollingLapTime=1  ; 0 = disabled, 1 = enabled`
   
