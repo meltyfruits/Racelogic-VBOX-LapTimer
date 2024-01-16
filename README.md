@@ -22,6 +22,9 @@ The following display modes have been implemented and are available:
 ### Menu & Settings
 
 ### Live Speed
+
+<p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.02.png?raw=true" alt="menuscreen"/></p>
+
 + Displays the current speed in realtime in kilometres per hour (km/h) or miles per hour (mph)
 > #### Overview
 >
@@ -35,6 +38,9 @@ The following display modes have been implemented and are available:
 > > `SpeedUnits=0  ; 0 = KMH, 1 = MPH, 2 = KTS *(not implemented yet)*`
 
 ### Max Speed
+
+<p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.03.png?raw=true" alt="menuscreen"/></p>
+
 + Displays this session's highest top speed.
 > #### Overview
 >
@@ -48,6 +54,9 @@ The following display modes have been implemented and are available:
 > > `SpeedUnits=0  ; 0 = KMH, 1 = MPH, 2 = KTS *(not implemented yet)*`
 
 ### Speed Bar
+
+<p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.04.png?raw=true" alt="menuscreen"/></p>
+
 + Displays the current speed in realtime in kilometres per hour (km/h) or miles per hour (mph) and a graph representing a positive and negative difference from the selected center speed.
 > #### Overview
 >
@@ -65,7 +74,14 @@ The following display modes have been implemented and are available:
 > `SpdDisplayRange=010 ; 005, 010, 020, 030, 040, 050, 060, 070, 080, 090, 100`
 > > The value rendered on the dashboard will match whatever speed unit is selected, e.g., Metric. `SpdDisplayRange` itself doesn't need to specify km/h, mph, or kn values. 
 
+### Lap Count
+
+<p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.05.png?raw=true" alt="menuscreen"/></p>
+
 ### Predictive Lap Timing
+
+<p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.06.png?raw=true" alt="menuscreen"/></p>
+
 + Displays the current delta to the session best and a graph representing that time graphically.
 > #### Overview
 > > Start up
@@ -87,6 +103,9 @@ The following display modes have been implemented and are available:
 > `DeltaVLightRange=5  ; 2, 5, 10 - speed in km/h`
 
 ### Lap Timing
+
+<p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.07.png?raw=true" alt="menuscreen"/></p>
+
 + Displays the current lap time and the current lap or statically displays the last lap time and current lap. Upon crossing the finish line, the last lap time will be displayed along with the last lap delta to the session best delta.
 > #### Overview
 >
@@ -106,15 +125,27 @@ The following display modes have been implemented and are available:
 > > `RollingLapTime=1  ; 0 = disabled, 1 = enabled`
   
 ### Lateral G
+
+<p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.08.png?raw=true" alt="menuscreen"/></p>
+
 + placeholder
 
 ### Lateral G Bar
+
+<p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.09.png?raw=true" alt="menuscreen"/></p>
+
 + placeholder
 
 ### Longitudinal G
+
+<p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.10.png?raw=true" alt="menuscreen"/></p>
+
 + placeholder
 
 ### Longitudinal G Bar
+
+<p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.11.png?raw=true" alt="menuscreen"/></p>
+
 + placeholder
 
 ## Dependencies (NOT IMPLEMENTED YET)
