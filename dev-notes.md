@@ -1,0 +1,1 @@
+[ ] Zero, one, and two decimal numbers can be reduced by using NCalc `if` and `format`
