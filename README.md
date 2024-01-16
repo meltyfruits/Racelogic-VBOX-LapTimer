@@ -2,7 +2,7 @@
 ## <p align="center">VBOX LapTimer, aka Racelogic, replica dashboard for SimHub</p>
 <p align="center"><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.png?raw=true" alt="menuscreen"/></p>
 
-A detailed replica of VBOX Motorsport's LapTimer device, otherwise known as a Racelogic, for SimHub. To the extent that is possible and reasonable, all display modes of the device are available, including customizable settings such as decimal places, speed unit, inverted screen, and more. The full list of features including how to use the dashboard are below.
+A detailed replica of VBOX Motorsport's LapTimer device, otherwise known as a Racelogic, for SimHub. To the extent that is possible and reasonable, all display modes of the device are available, including customizable settings such as decimal places, speed unit, inverted screen, and more. The full list of features including how to use the dashboard are below. 
 
 ### Overall 
 The following display modes have been implemented and are available:
@@ -17,7 +17,7 @@ The following display modes have been implemented and are available:
 + Longitudinal G
 + Longitudinal G Bar
 
-***WARNING*** Please do not change the order or line spacing of the *settings.ini* file. I very messily implemented the settings and haven't had the time to refactor it. If you run into issues with how things are displaying, overwrite your *settings.ini* with the default one.
+***WARNING*** Please do not change the order or line spacing of the *settings.ini* file. I very messily implemented the settings and haven't had the time to refactor it. If you run into issues with how things are displaying, overwrite your *settings.ini* with the default one. Also note that not all setting in the file are fully implemented. The display mode overviews below cover all settings that are currently implemented.
 
 ### Menu & Settings
 
@@ -29,20 +29,32 @@ The following display modes have been implemented and are available:
 > > + The number of decimal places shown can be set in the ***settings.ini*** file:
 > >
 > > `SpeedDecimalPlaces=0  ; 0, 1, 2`
+> + Can display *km/h* and *mph* speed units.
+> > + The speed unit displayed can be set in the ***settings.ini*** file:
+> >
+> > `SpeedUnits=0  ; 0 = KMH, 1 = MPH, 2 = KTS *(not implemented yet)*`
 
 ### Max Speed
-+ Displays this session's highest top speed. This value is rolling.
++ Displays this session's highest top speed.
 > #### Overview
 >
 > + Can display zero, one, or two decimal places. *E.g., 123, 123.4, 123.45.*
 > > + The number of decimal places shown can be set in the ***settings.ini*** file:
 > >
 > > `SpeedDecimalPlaces=0  ; 0, 1, 2`
+> + Can display *km/h* and *mph* speed units.
+> > + The speed unit displayed can be set in the ***settings.ini*** file:
+> >
+> > `SpeedUnits=0  ; 0 = KMH, 1 = MPH, 2 = KTS *(not implemented yet)*`
 
 ### Speed Bar
 + Displays the current speed in realtime in kilometres per hour (km/h) or miles per hour (mph) and a graph representing a positive and negative difference from the selected center speed.
 > #### Overview
 >
+> + Can display *km/h* and *mph* speed units.
+> > + The speed unit displayed can be set in the ***settings.ini*** file:
+> >
+> > `SpeedUnits=0  ; 0 = KMH, 1 = MPH, 2 = KTS *(not implemented yet)*`
 > + The center speed of the graph can be set in the ***settings.ini*** file:
 >
 > `CenterSpeed=370 ; Any number between 10 and 1000 in increments of 10, e.g., 150, 160, 170`
@@ -66,7 +78,23 @@ The following display modes have been implemented and are available:
 > + Each subsequent time the start line is crossed the last lap time and the delta (Delta-T/ΔT) to the seesion best are displayed.
 
 ### Lap Timing
-+ placeholder
++ Displays the current lap time and the current lap or statically displays the last lap time and current lap. Upon crossing the finish line, the last lap time will be displayed along with the last lap delta to the session best delta.
+> #### Overview
+>
+> + Can display one or two decimal places. *E.g., 2'03.2 or 2'03.27*
+> > + The number of decimal places shown can be set in the ***settings.ini*** file and is inherited from the *SpeedDecimalPlaces* settings. Please note that this screen will not display zero decimal places. If 0 is set in the .ini, 1 decimal place will be used instead:
+> >
+> > `SpeedDecimalPlaces=0  ; 0, 1, 2`
+>
+> + Can display the last lap delta for a variable amount of time. *E.g., 2s, 5s, 10s, 15s, 20s*
+> > + The length of time can be set in the ***settings.ini*** file:
+> >
+> > `SplitTimeDisplayPeriod=05.0  ; 02.0, 05.0, 10.0, 15.0, 20.0 - time in seconds`
+>
+> + Can display a rolling current lap time or a static last lap time.
+> > + The setting for rolling or static can be set in the ***settings.ini*** file:
+> >
+> > `RollingLapTime=1  ; 0 = disabled, 1 = enabled`
   
 ### Lateral G
 + placeholder
@@ -162,12 +190,12 @@ The following display modes have been implemented and are available:
   * [x] Static Lap Time setting
   * [x] Inverted screen
 * [ ] Lateral G
-  * [ ] Current lateral Gs
+  * [ ] Current lateral Gs (+/-)
   * [ ] Maximum reached lateral Gs
 * [ ] Lateral G Bar
   * [ ] placeholder
 * [ ] Longitudinal G
-  * [ ] Current longitudinal G
+  * [ ] Current longitudinal G (+/-)
   * [ ] Maximum reached longitudinal Gs
 * [ ] Longitudinul G Bar
   * [ ] placeholder 
