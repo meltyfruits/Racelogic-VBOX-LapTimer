@@ -68,14 +68,23 @@ The following display modes have been implemented and are available:
 ### Predictive Lap Timing
 + Displays the current delta to the session best and a graph representing that time graphically.
 > #### Overview
+> > Start up
+> > + On the first lap, the *WAITING FOR START LINE* screen will be displayed.
+> >
+> > + After completing the first lap, the *CREATING REFERENCE LAP* screen will display. A rolling lap time (current lap time) will be displayed as well as two teal-coloured LEDs.
+> >
+> > + After crossing the start line a second time, the current lap delta will be displayed.
+> >
+> > + Each subsequent time the start line is crossed the last lap time and the delta (Delta-T/ΔT) to the seesion best are displayed.
+> + The graph can display a range of time (+/-) in seconds.
+> > + The amount of time displayed on the graph can be set in the ***settings.ini*** file:
 > 
-> + On the first lap, the *WAITING FOR START LINE* screen will be displayed.
+> `DeltaTBarRange=5  ; 2, 5, 10, 30 - time in seconds`
+>
+> + The Delta-V LEDs display the Delta Velocity between the current lap and the session best lap, represented in km/h. The LEDs function as a gauge, filling up depending on the Delta-V +/-. 
+> > + The +/- range of the LEDs can be set in the ***settings.ini*** file:
 > 
-> + After completing the first lap, the *CREATING REFERENCE LAP* screen will display. A rolling lap time (current lap time) will be displayed as well as two teal-coloured LEDs.
->
-> + After crossing the start line a second time, the current lap delta will be displayed.
->
-> + Each subsequent time the start line is crossed the last lap time and the delta (Delta-T/ΔT) to the seesion best are displayed.
+> `DeltaVLightRange=5  ; 2, 5, 10 - speed in km/h`
 
 ### Lap Timing
 + Displays the current lap time and the current lap or statically displays the last lap time and current lap. Upon crossing the finish line, the last lap time will be displayed along with the last lap delta to the session best delta.
