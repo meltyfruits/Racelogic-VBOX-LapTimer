@@ -17,6 +17,8 @@ The following display modes have been implemented and are available:
 + Longitudinal G
 + Longitudinal G Bar
 
+***WARNING*** Please do not change the order or line spacing of the settings.ini file. I very messily implemented the settings and haven't had the time to refactor it. If you run into issues with how things are displaying, overwrite your settings.ini with the default one.***
+
 ### Menu & Settings
 
 ### Live Speed
@@ -159,6 +161,10 @@ The following display modes have been implemented and are available:
   * [x] Rolling Lap Time setting
   * [x] Static Lap Time setting
   * [x] Inverted screen
+* [ ] Lateral G
+* [ ] Lateral G Bar
+* [ ] Longitudinal G
+* [ ] Longitudinul G Bar
 
 ### Sim Support
 * [x] Assetto Corsa
