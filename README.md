@@ -184,4 +184,5 @@ The following display modes have been implemented and are available:
 ## Credits
 - VBOX Motorsport (<https://vboxmotorsport.co.uk>)
 - SimHub by SHWotever <https://www.simhubdash.com/> | [GitHub](https://github.com/SHWotever/SimHub)
+- Members of the SimHub Discord (there is a wealth of knowledge in these people!)
 - JSON auto-formatted with <https://j-brooke.github.io/FracturedJson/>
