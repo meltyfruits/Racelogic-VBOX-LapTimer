@@ -17,7 +17,7 @@ The following display modes have been implemented and are available:
 + Longitudinal G
 + Longitudinal G Bar
 
-***WARNING*** Please do not change the order or line spacing of the settings.ini file. I very messily implemented the settings and haven't had the time to refactor it. If you run into issues with how things are displaying, overwrite your settings.ini with the default one.***
+***WARNING*** Please do not change the order or line spacing of the *settings.ini* file. I very messily implemented the settings and haven't had the time to refactor it. If you run into issues with how things are displaying, overwrite your *settings.ini* with the default one.
 
 ### Menu & Settings
 
@@ -162,15 +162,21 @@ The following display modes have been implemented and are available:
   * [x] Static Lap Time setting
   * [x] Inverted screen
 * [ ] Lateral G
+  * [ ] Current lateral Gs
+  * [ ] Maximum reached lateral Gs
 * [ ] Lateral G Bar
+  * [ ] placeholder
 * [ ] Longitudinal G
+  * [ ] Current longitudinal G
+  * [ ] Maximum reached longitudinal Gs
 * [ ] Longitudinul G Bar
+  * [ ] placeholder 
 
 ### Sim Support
-* [x] Assetto Corsa
+* [x] Assetto Corsa *(Partial)*
 * [ ] Assetto Corsa Competizione
 * [ ] Automobilista 2
-* [x] iRacing
+* [x] iRacing *(Partial)*
 * [ ] rFactor 2
       
 ### Misc
