@@ -12,10 +12,10 @@ The following display modes have been implemented and are available:
 + Lap Count
 + Predictive Lap Timing
 + Lap Timing
-+ Lateral G
-+ Lateral G Bar
-+ Longitudinal G
-+ Longitudinal G Bar
++ Lateral *g*
++ Lateral *g* Bar
++ Longitudinal *g*
++ Longitudinal *g* Bar
 
 ***WARNING*** Please do not change the order or line spacing of the *settings.ini* file. I very messily implemented the settings and haven't had the time to refactor it. If you run into issues with how things are displaying, overwrite your *settings.ini* with the default one. Also note that not all setting in the file are fully implemented. The display mode overviews below cover all settings that are currently implemented.
 
@@ -124,25 +124,25 @@ The following display modes have been implemented and are available:
 > >
 > > `RollingLapTime=1  ; 0 = disabled, 1 = enabled`
   
-### Lateral G
+### Lateral *g*
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.08.png?raw=true" alt="menuscreen"/></p>
 
 + placeholder
 
-### Lateral G Bar
+### Lateral *g* Bar
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.09.png?raw=true" alt="menuscreen"/></p>
 
 + placeholder
 
-### Longitudinal G
+### Longitudinal *g*
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.10.png?raw=true" alt="menuscreen"/></p>
 
 + placeholder
 
-### Longitudinal G Bar
+### Longitudinal *g* Bar
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.11.png?raw=true" alt="menuscreen"/></p>
 
@@ -229,16 +229,21 @@ The following display modes have been implemented and are available:
   * [x] Rolling Lap Time setting
   * [x] Static Lap Time setting
   * [x] Inverted screen
-* [ ] Lateral G
-  * [ ] Current lateral Gs (+/-)
-  * [ ] Maximum reached lateral Gs
-* [ ] Lateral G Bar
-  * [ ] placeholder
-* [ ] Longitudinal G
-  * [ ] Current longitudinal G (+/-)
-  * [ ] Maximum reached longitudinal Gs
-* [ ] Longitudinul G Bar
-  * [ ] placeholder 
+* [ ] Lateral *g*
+  * [ ] Current lateral *g* (+/-)
+  * [ ] Maximum reached lateral *g*
+* [ ] Lateral *g* Bar
+  * [ ] Current lateral *g* (+/-)
+  * [ ] Positive (+) *g* graph
+    * [ ] 1 - 3 *g* maximum setting
+  * [ ] Negative (-) *g* graph
+    * [ ] 1 - 3 *g* maximum setting
+* [ ] Longitudinal *g*
+  * [ ] Current longitudinal *g* (+/-)
+  * [ ] Maximum reached longitudinal *g*
+* [ ] Longitudinul *g* Bar
+  * [ ] Current longitudinal *g* (+/-)
+  * [ ] 1 - 3 *g* maximum setting
 
 ### Sim Support
 * [x] Assetto Corsa *(Partial)*
