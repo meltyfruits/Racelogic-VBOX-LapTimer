@@ -1,1 +1,1 @@
-
+- Lat and Lng values can show +0 and -0
