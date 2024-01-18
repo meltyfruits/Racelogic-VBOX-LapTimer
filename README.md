@@ -147,9 +147,11 @@ The following display modes have been implemented and are available:
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.11.png?raw=true" alt="menuscreen"/></p>
 
 + placeholder
-
+  
+<!--
 ## Dependencies (NOT IMPLEMENTED YET)
 - [SwitchableProperties by MorGuux](https://github.com/MorGuux/SwitchableProperties)
+-->
 
 ## References
 - [VBOX LapTimer User Guide](https://en.racelogic.support/VBOX_Motorsport/Product_Info/Lap_Timing_and_Pit_Timing/VBOX_LapTimer/User_Guide_%E2%80%93_VBOX_LapTimer)
