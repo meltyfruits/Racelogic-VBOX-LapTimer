@@ -260,8 +260,9 @@ The following display modes have been implemented and are available:
 * [x] From scratch Racelogic logo
 * [ ] Device correct colours
 * [ ] Implement SwitchableProperties
-* [ ] Outline text solution
+* [ ] Outline text
 * [ ] Documentation
+* [ ] Screen optimization
 * [ ] Code optimization
 * [ ] Add Knots (kn) speed metric
 * [ ] Configure LEDs
