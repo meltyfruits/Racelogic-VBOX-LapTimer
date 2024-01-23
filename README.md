@@ -168,87 +168,113 @@ The following display modes have been implemented and are available:
 * [ ] **Menu/Settings screens**
 * [ ] **Live Speed**
   * [ ] Display Mode splash screen
-  * [x] No decimal places
-  * [x] One decimal place
-  * [x] Two decimal places
+  * [ ] Decimal places
+    * [x] No decimal places setting
+    * [x] One decimal place setting
+    * [x] Two decimal places setting
+  * [ ] Speed units
+    * [x] km/h units setting
+    * [x] MPH units setting
+    * [ ] kn units setting
   * [x] Inverted screen
-  * [x] km/h units
-  * [x] MPH units
-  * [ ] kn units
+  * [ ] Outline text
 * [ ] **Max Speed**
   * [ ] Display Mode splash screen
-  * [x] No decimal places
-  * [x] One decimal place
-  * [x] Two decimal places
+  * [ ] Decimal places
+    * [x] No decimal places setting
+    * [x] One decimal place setting
+    * [x] Two decimal places setting
+  * [ ] Speed units
+    * [x] km/h units setting
+    * [x] MPH units setting
+    * [ ] kn units setting
   * [x] Inverted screen
-  * [x] km/h units
-  * [x] MPH units
-  * [ ] kn units
+  * [ ] Outline text
 * [ ] **Speed Bar**
   * [ ] Display Mode splash screen
-  * [x] Center Speed setting
-  * [x] Speed Display Range setting
+  * [x] Center Speed 
+    * [ ] 0-999 setting
+  * [x] Speed Display Range
+    * [ ] 0-999 setting
+  * [ ] Speed units
+    * [x] km/h units setting
+    * [x] MPH units setting
+    * [ ] kn units setting
   * [x] Inverted screen
-  * [x] km/h units
-  * [x] MPH units
-  * [ ] kn units
+  * [ ] Outline text
 * [ ] **Lap Count**
   * [ ] Display Mode splash screen
   * [x] Total Laps count
   * [x] Current Laps count
   * [x] Inverted screen
+  * [ ] Outline text
 * [ ] **Predictive Lap Timing**
   * [ ] Display Mode splash screen
-  * [x] Waiting for Start Line screen and logic
-  * [x] Creating Reference Lap screen and logic
-  * [x] Delta T Bar Range setting
-    * [x] 2s
-    * [x] 5s
-    * [x] 10s
-    * [x] 30s
-  * [ ] Delta V Light Range setting
-    * [ ] 2 km/h
-    * [ ] 5 km/h
-    * [ ] 10 km/h
-  * [ ] Delta-T Speed Mode
-    * [ ] Speed setting
-    * [ ] Time Delay setting
+  * [x] Waiting for Start Line screen
+  * [x] Creating Reference Lap screen
+  * [x] Delta T Bar Range 
+    * [x] 2s setting
+    * [x] 5s setting
+    * [x] 10s setting
+    * [x] 30s setting
+  * [ ] Delta-V Light Range 
+    * [ ] 2 km/h setting
+    * [ ] 5 km/h setting
+    * [ ] 10 km/h setting
   * [ ] Delta-V LEDs
     * [x] Delta-V calculations
+  * [ ] Delta-T Speed Mode
+    * [ ] Speed setting
+    * [ ] Time Delay setting 
   * [x] Final lap time and split from session best
   * [x] Inverted screen
+  * [ ] Outline text
 * [ ] **Lap Timing**
   * [ ] Display Mode splash screen
-  * [x] One decimal place
-  * [x] Two decimal places
+  * [ ] Decimal places
+    * [x] One decimal place
+    * [x] Two decimal places
   * [x] Current Lap
   * [x] Final lap time and split from session best
-  * [ ] Split Time Display Period setting
-    * [ ] 02.0s
-    * [ ] 05.0s
-    * [ ] 10.0s
+  * [ ] Split Time Display Period 
+    * [ ] 02.0s setting
+    * [ ] 05.0s setting
+    * [ ] 10.0s setting
   * [ ] Split-to-Split Time setting
   * [x] Rolling Lap Time setting
   * [x] Static Lap Time setting
   * [x] Inverted screen
+  * [ ] Outline text
 * [ ] Lateral *g*
+  * [ ] Display Mode splash screen
   * [ ] Current lateral *g* (+/-)
   * [ ] Maximum reached lateral *g*
+  * [ ] Inverted screen
+  * [ ] Outline text
 * [ ] Lateral *g* Bar
+  * [ ] Display Mode splash screen
   * [ ] Current lateral *g* (+/-)
   * [ ] Lat *g* graph
     * [ ] +/- 3 *g* min/max labels
   * [ ] Target *g* setting (+/- 3 *g*)
   * [ ] Inverted target setting
+  * [ ] Inverted screen
+  * [ ] Outline text
 * [ ] Longitudinal *g*
+  * [ ] Display Mode splash screen
   * [ ] Current longitudinal *g* (+/-)
   * [ ] Maximum reached longitudinal *g*
+  * [ ] Inverted screen
+  * [ ] Outline text
 * [ ] Longitudinul *g* Bar
+  * [ ] Display Mode splash screen
   * [ ] Current longitudinal *g* (+/-)
   * [ ] Lng *g* graph
     * [ ] +/- 3 *g* min/max labels
   * [ ] Target *g* setting (+/- 3 *g*)
   * [ ] Inverted target setting
+  * [ ] Inverted screen
+  * [ ] Outline text
 
 ### Sim Support
 * [x] Assetto Corsa *(Partial)*
