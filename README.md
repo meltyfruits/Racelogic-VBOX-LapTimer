@@ -236,16 +236,19 @@ The following display modes have been implemented and are available:
   * [ ] Maximum reached lateral *g*
 * [ ] Lateral *g* Bar
   * [ ] Current lateral *g* (+/-)
-  * [ ] Positive (+) *g* graph
-    * [ ] 1 - 3 *g* maximum setting
-  * [ ] Negative (-) *g* graph
-    * [ ] 1 - 3 *g* maximum setting
+  * [ ] Lat *g* graph
+    * [ ] +/- 3 *g* min/max labels
+  * [ ] Target *g* setting (+/- 3 *g*)
+  * [ ] Inverted target setting
 * [ ] Longitudinal *g*
   * [ ] Current longitudinal *g* (+/-)
   * [ ] Maximum reached longitudinal *g*
 * [ ] Longitudinul *g* Bar
   * [ ] Current longitudinal *g* (+/-)
-  * [ ] 1 - 3 *g* maximum setting
+  * [ ] Lng *g* graph
+    * [ ] +/- 3 *g* min/max labels
+  * [ ] Target *g* setting (+/- 3 *g*)
+  * [ ] Inverted target setting
 
 ### Sim Support
 * [x] Assetto Corsa *(Partial)*
