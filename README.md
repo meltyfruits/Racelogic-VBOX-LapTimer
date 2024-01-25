@@ -72,11 +72,29 @@ The following display modes have been implemented and are available:
 > + The speed disply range (+/-) of the graph can be set in the ***settings.ini*** file:
 >
 > `SpdDisplayRange=010 ; 005, 010, 020, 030, 040, 050, 060, 070, 080, 090, 100`
-> > The value rendered on the dashboard will match whatever speed unit is selected, e.g., Metric. `SpdDisplayRange` itself doesn't need to specify km/h, mph, or kn values. 
+> > The value rendered on the dashboard will match whatever speed unit is selected, e.g., Metric. `SpdDisplayRange` itself doesn't need to specify km/h, mph, or kn values.
 
-### Lap Count
+### Lap Timing
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.05.png?raw=true" alt="menuscreen"/></p>
+
++ Displays the current lap time and the current lap or statically displays the last lap time and current lap. Upon crossing the finish line, the last lap time will be displayed along with the last lap delta to the session best delta.
+> #### Overview
+>
+> + Can display one or two decimal places. *E.g., 2'03.2 or 2'03.27*
+> > + The number of decimal places shown can be set in the ***settings.ini*** file and is inherited from the *SpeedDecimalPlaces* settings. Please note that this screen will not display zero decimal places. If 0 is set in the .ini, 1 decimal place will be used instead:
+> >
+> > `SpeedDecimalPlaces=0  ; 0, 1, 2`
+>
+> + Can display the last lap delta for a variable amount of time. *E.g., 2s, 5s, 10s, 15s, 20s*
+> > + The length of time the split is displayed can be set in the ***settings.ini*** file:
+> >
+> > `SplitTimeDisplayPeriod=05.0  ; 02.0, 05.0, 10.0, 15.0, 20.0 - time in seconds`
+>
+> + Can display a rolling current lap time or a static last lap time.
+> > + The setting for rolling or static timing can be set in the ***settings.ini*** file:
+> >
+> > `RollingLapTime=1  ; 0 = disabled, 1 = enabled`
 
 ### Predictive Lap Timing
 
@@ -102,47 +120,31 @@ The following display modes have been implemented and are available:
 > 
 > `DeltaVLightRange=5  ; 2, 5, 10 - speed in km/h`
 
-### Lap Timing
-
-<p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.07.png?raw=true" alt="menuscreen"/></p>
-
-+ Displays the current lap time and the current lap or statically displays the last lap time and current lap. Upon crossing the finish line, the last lap time will be displayed along with the last lap delta to the session best delta.
-> #### Overview
->
-> + Can display one or two decimal places. *E.g., 2'03.2 or 2'03.27*
-> > + The number of decimal places shown can be set in the ***settings.ini*** file and is inherited from the *SpeedDecimalPlaces* settings. Please note that this screen will not display zero decimal places. If 0 is set in the .ini, 1 decimal place will be used instead:
-> >
-> > `SpeedDecimalPlaces=0  ; 0, 1, 2`
->
-> + Can display the last lap delta for a variable amount of time. *E.g., 2s, 5s, 10s, 15s, 20s*
-> > + The length of time the split is displayed can be set in the ***settings.ini*** file:
-> >
-> > `SplitTimeDisplayPeriod=05.0  ; 02.0, 05.0, 10.0, 15.0, 20.0 - time in seconds`
->
-> + Can display a rolling current lap time or a static last lap time.
-> > + The setting for rolling or static timing can be set in the ***settings.ini*** file:
-> >
-> > `RollingLapTime=1  ; 0 = disabled, 1 = enabled`
-  
-### Lateral *g*
+### Lateral *g* Bar
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.08.png?raw=true" alt="menuscreen"/></p>
 
 + placeholder
 
-### Lateral *g* Bar
+### Lateral *g*
 
-<p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.09.png?raw=true" alt="menuscreen"/></p>
+<p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.07.png?raw=true" alt="menuscreen"/></p>
 
 + placeholder
 
-### Longitudinal *g*
+### Longitudinal *g* Bar
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.10.png?raw=true" alt="menuscreen"/></p>
 
 + placeholder
 
-### Longitudinal *g* Bar
+### Longitudinal *g*
+
+<p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.09.png?raw=true" alt="menuscreen"/></p>
+
++ placeholder
+
+### Lap Count
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.11.png?raw=true" alt="menuscreen"/></p>
 
