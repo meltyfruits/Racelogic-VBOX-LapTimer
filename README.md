@@ -4,20 +4,26 @@
 
 A detailed replica of VBOX Motorsport's LapTimer device, otherwise known as a Racelogic, for SimHub. To the extent that is possible and reasonable, all display modes of the device are available, including customizable settings such as decimal places, speed unit, inverted screen, and more. The full list of features including how to use the dashboard are below. 
 
+***Please be sure to read the documentation as there are quite a few settings that impact each display mode.***
+
 ### Overall 
-The following display modes have been implemented and are available:
+The display modes are arranged in the same order as the device based on the references listed. The display modes can be changed by pressing **↑** to cycle to the next mode and **↓** to cycle to the previous mode. The display modes are in the following order:
 + Live Speed
 + Max Speed
 + Speed Bar
-+ Lap Count
 + Predictive Lap Timing
 + Lap Timing
-+ Lateral *g*
 + Lateral *g* Bar
-+ Longitudinal *g*
++ Lateral *g*
 + Longitudinal *g* Bar
++ Longitudinal *g*
++ Lap Count
 
-***WARNING*** Please do not change the order or line spacing of the *settings.ini* file. I very messily implemented the settings and haven't had the time to refactor it. If you run into issues with how things are displaying, overwrite your *settings.ini* with the default one. Also note that not all setting in the file are fully implemented. The display mode overviews below cover all settings that are currently implemented.
+Generally speaking, most of the official documentation around display mode settings is compatible with this replica, save for a few things that have no real applicability to this dashboard, which are described further below. See [here]() for a list of settings/features that will not be implemented.
+
+All of the settings are contained in the included ***settings.ini*** file. The settings for the real device have corresponding entries in the settings file. For example, the setting *Speed Decimal Places* in the *Display Menu* can be found in the ***settings.ini*** file as `SpeedDecimalPlaces=0 ; 0, 1, 2` under the `[Display]` category. Read on below for a full overview of each display mode and associated settings. 
+
+***WARNING*** Please do not change the order or line spacing of the *settings.ini* file. There are entries that do nothing. Even so, please do not remove those entries. I very messily implemented the settings and haven't had the time to refactor it. If you run into issues with how things are displaying, overwrite your *settings.ini* with the default one. Also note that not all setting in the file are fully implemented. The display mode overviews below cover all settings that are currently implemented.
 
 ### Menu & Settings
 
@@ -149,6 +155,18 @@ The following display modes have been implemented and are available:
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.11.png?raw=true" alt="menuscreen"/></p>
 
 + placeholder
+
+### Exclusions
+The following settings/features are not and will not be implemented (for mostly obvious reasons):
++ GNSS options (GPS)
++ SD card saving/loading
++ Logging mode
++ Track database
++ Gates
++ One shot mode
++ Display brightness
++ LED brightness
++ Orientation
   
 <!--
 ## Dependencies (NOT IMPLEMENTED YET)
@@ -170,7 +188,7 @@ The following display modes have been implemented and are available:
 * [ ] **Menu/Settings screens**
 * [ ] **Live Speed**
   * [ ] Display Mode splash screen
-  * [ ] Decimal places
+  * [x] Decimal places
     * [x] No decimal places setting
     * [x] One decimal place setting
     * [x] Two decimal places setting
@@ -182,7 +200,8 @@ The following display modes have been implemented and are available:
   * [ ] Outline text
 * [ ] **Max Speed**
   * [ ] Display Mode splash screen
-  * [ ] Decimal places
+  * [x] Reset max speed button
+  * [x] Decimal places
     * [x] No decimal places setting
     * [x] One decimal place setting
     * [x] Two decimal places setting
@@ -195,9 +214,9 @@ The following display modes have been implemented and are available:
 * [ ] **Speed Bar**
   * [ ] Display Mode splash screen
   * [x] Center Speed 
-    * [ ] 0-999 setting
+    * [x] 0-999 setting
   * [x] Speed Display Range
-    * [ ] 0-999 setting
+    * [x] 0-999 setting
   * [ ] Speed units
     * [x] km/h units setting
     * [x] MPH units setting
@@ -219,10 +238,10 @@ The following display modes have been implemented and are available:
     * [x] 5s setting
     * [x] 10s setting
     * [x] 30s setting
-  * [ ] Delta-V Light Range 
-    * [ ] 2 km/h setting
-    * [ ] 5 km/h setting
-    * [ ] 10 km/h setting
+  * [x] Delta-V Light Range 
+    * [x] 2 km/h setting
+    * [x] 5 km/h setting
+    * [x] 10 km/h setting
   * [ ] Delta-V LEDs
     * [x] Delta-V calculations
   * [ ] Delta-T Speed Mode
@@ -233,15 +252,17 @@ The following display modes have been implemented and are available:
   * [ ] Outline text
 * [ ] **Lap Timing**
   * [ ] Display Mode splash screen
-  * [ ] Decimal places
+  * [x] Decimal places
     * [x] One decimal place
     * [x] Two decimal places
   * [x] Current Lap
   * [x] Final lap time and split from session best
-  * [ ] Split Time Display Period 
-    * [ ] 02.0s setting
-    * [ ] 05.0s setting
-    * [ ] 10.0s setting
+  * [x] Split Time Display Period 
+    * [x] 02.0s setting
+    * [x] 05.0s setting
+    * [x] 10.0s setting
+    * [x] 15.0s setting
+    * [x] 20.0s setting
   * [ ] Split-to-Split Time setting
   * [x] Rolling Lap Time setting
   * [x] Static Lap Time setting
@@ -249,40 +270,40 @@ The following display modes have been implemented and are available:
   * [ ] Outline text
 * [ ] Lateral *g*
   * [ ] Display Mode splash screen
-  * [ ] Current lateral *g* (+/-)
-  * [ ] Maximum reached lateral *g*
+  * [x] Current lateral *g* (+/-)
+  * [x] Maximum reached lateral *g*
   * [ ] Inverted screen
   * [ ] Outline text
 * [ ] Lateral *g* Bar
   * [ ] Display Mode splash screen
-  * [ ] Current lateral *g* (+/-)
-  * [ ] Lat *g* graph
-    * [ ] +/- 3 *g* min/max labels
-  * [ ] Target *g* setting (+/- 3 *g*)
-  * [ ] Inverted target setting
+  * [x] Current lateral *g* (+/-)
+  * [x] Lat *g* graph
+    * [x] +/- 3 *g* min/max labels
+  * [x] Target *g* setting (+/- 3 *g*)
+  * [x] Inverted target setting
   * [ ] Inverted screen
   * [ ] Outline text
 * [ ] Longitudinal *g*
   * [ ] Display Mode splash screen
-  * [ ] Current longitudinal *g* (+/-)
-  * [ ] Maximum reached longitudinal *g*
+  * [x] Current longitudinal *g* (+/-)
+  * [x] Maximum reached longitudinal *g*
   * [ ] Inverted screen
   * [ ] Outline text
 * [ ] Longitudinul *g* Bar
   * [ ] Display Mode splash screen
-  * [ ] Current longitudinal *g* (+/-)
-  * [ ] Lng *g* graph
-    * [ ] +/- 3 *g* min/max labels
-  * [ ] Target *g* setting (+/- 3 *g*)
-  * [ ] Inverted target setting
+  * [x] Current longitudinal *g* (+/-)
+  * [x] Lng *g* graph
+    * [x] +/- 3 *g* min/max labels
+  * [x] Target *g* setting (+/- 3 *g*)
+  * [x] Inverted target setting
   * [ ] Inverted screen
   * [ ] Outline text
 
 ### Sim Support
-* [x] Assetto Corsa *(Partial)*
+* [x] Assetto Corsa
 * [ ] Assetto Corsa Competizione
 * [ ] Automobilista 2
-* [x] iRacing *(Partial)*
+* [x] iRacing
 * [ ] rFactor 2
       
 ### Misc
@@ -290,7 +311,6 @@ The following display modes have been implemented and are available:
 * [x] Template screen
 * [x] From scratch Racelogic logo
 * [ ] Device correct colours
-* [ ] Implement SwitchableProperties
 * [ ] Outline text
 * [ ] Documentation
 * [ ] Screen optimization
@@ -299,6 +319,7 @@ The following display modes have been implemented and are available:
 * [ ] Configure LEDs
 * [x] Update placeholder text (from 9s)
 * [ ] Night mode
+<!-- * [ ] Implement SwitchableProperties -->
 
 ## Credits
 - VBOX Motorsport (<https://vboxmotorsport.co.uk>)
