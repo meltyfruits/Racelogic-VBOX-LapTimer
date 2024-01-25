@@ -121,7 +121,13 @@ Displays the current delta to the session best and a graph representing that tim
 
 > ### Settings
 >
-> This display mode 
+> On the first lap, the screen will display *WAITING FOR START LINE* and a distance in meters to the start/finish line.
+> 
+> After crossing the start/finish line for the first time, the screen will display *CREATING REFERENCE LAP* and the current lap time and two teal LEDs. 
+>
+> After crossing the start/finish line for the second time, the screen will display the Delta-T graph along with the current delta to session best. The last lap time and delta to session best will display briefly each time the start/finish line is crossed.
+>
+> 
 > > Start up
 > > + On the first lap, the *WAITING FOR START LINE* screen will be displayed.
 > >
