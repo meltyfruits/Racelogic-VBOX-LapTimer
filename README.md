@@ -19,95 +19,109 @@ The display modes are arranged in the same order as the device based on the refe
 + Longitudinal *g*
 + Lap Count
 
-Generally speaking, most of the official documentation around display mode settings is compatible with this replica, save for a few things that have no real applicability to this dashboard, which are described further below. See [here]() for a list of settings/features that will not be implemented.
+Generally speaking, most of the official documentation around display mode settings is compatible with this replica, save for a few things that have no real applicability to this dashboard, which are described further below. See [here](https://github.com/meltyfruits/SimHub-VBOX-LapTimer/tree/main#exclusions) for a list of settings/features that will not be implemented.
 
 All of the settings are contained in the included ***settings.ini*** file. The settings for the real device have corresponding entries in the settings file. For example, the setting *Speed Decimal Places* in the *Display Menu* can be found in the ***settings.ini*** file as `SpeedDecimalPlaces=0 ; 0, 1, 2` under the `[Display]` category. Read on below for a full overview of each display mode and associated settings. 
 
 ***WARNING*** Please do not change the order or line spacing of the *settings.ini* file. There are entries that do nothing. Even so, please do not remove those entries. I very messily implemented the settings and haven't had the time to refactor it. If you run into issues with how things are displaying, overwrite your *settings.ini* with the default one. Also note that not all setting in the file are fully implemented. The display mode overviews below cover all settings that are currently implemented.
 
-### Menu & Settings
+### General
+> ### Settings
+> Basic display modes is set by default with only *Speed*, *Lap Timing*, and *Predictive Lap Timing* screens visible. Advanced display modes can be set, which enables the *Max Speed*, *Speed Bar*, *Lateral g Bar*, *Lateral g*, *Longitudinal g Bar*, *Longitudinal g*, and *Lap Count* screens.
+>
+> > `Modes=0  ; 0 = Basic, 1 = Advanced`
+> 
+> The colour of the display can be inverted in the settings.
+>
+> > `InvertScreenColour=0  ; 0 = disabled (Black screen, white text), 1 = enabled (White screen, black text)`
+>
+> The text can be set to outline in the settings.
+>
+> > `UseOutlineFont=0  ; 0 = disabled, 1 = enabled`
 
 ### Live Speed
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.02.png?raw=true" alt="menuscreen"/></p>
 
-+ Displays the current speed in realtime in kilometres per hour (km/h) or miles per hour (mph)
-> #### Overview
+Displays the current speed in realtime in kilometres per hour (km/h), miles per hour (mph), or knots<sup>not implemented</sup> (kts).
+  
+> ### Settings
 >
-> + Can display zero, one, or two decimal places. *E.g., 123, 123.4, 123.45.*
-> > + The number of decimal places shown can be set in the ***settings.ini*** file:
-> >
+> The number of decimal places displayed can be changed in the settings. Zero, one, or two decimal places can be displayed. *E.g., 235, 167.2, 185.14*
+> 
 > > `SpeedDecimalPlaces=0  ; 0, 1, 2`
-> + Can display *km/h* and *mph* speed units.
-> > + The speed unit displayed can be set in the ***settings.ini*** file:
-> >
-> > `SpeedUnits=0  ; 0 = KMH, 1 = MPH, 2 = KTS *(not implemented yet)*`
+> 
+> The unit of speed displayed can be changed in the settings. KMH, MPH, or KTS can be displayed. *E.g., 104 km/h*
+> 
+> > `SpeedUnits=0  ; 0 = KMH, 1 = MPH, 2 = KTS`
 
 ### Max Speed
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.03.png?raw=true" alt="menuscreen"/></p>
 
-+ Displays this session's highest top speed.
-> #### Overview
+Displays this session's highest top speed in kilometres per hour (km/h), miles per hour (mph), or knots<sup>not implemented</sup> (kts). Only displays if `Modes=1` ([see here]())
+
+> ### Settings
 >
-> + Can display zero, one, or two decimal places. *E.g., 123, 123.4, 123.45.*
-> > + The number of decimal places shown can be set in the ***settings.ini*** file:
-> >
+> The number of decimal places displayed can be changed in the settings. Zero, one, or two decimal places can be displayed. *E.g., 235, 167.2, 185.14*
+> 
 > > `SpeedDecimalPlaces=0  ; 0, 1, 2`
-> + Can display *km/h* and *mph* speed units.
-> > + The speed unit displayed can be set in the ***settings.ini*** file:
-> >
-> > `SpeedUnits=0  ; 0 = KMH, 1 = MPH, 2 = KTS *(not implemented yet)*`
+> 
+> The unit of speed displayed can be changed in the settings. KMH, MPH, or KTS can be displayed. *E.g., 104 km/h*
+> 
+> > `SpeedUnits=0  ; 0 = KMH, 1 = MPH, 2 = KTS`
+>
+> The displayed maximum reached speed can be reset by pressing the middle button **▢**.
 
 ### Speed Bar
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.04.png?raw=true" alt="menuscreen"/></p>
 
-+ Displays the current speed in realtime in kilometres per hour (km/h) or miles per hour (mph) and a graph representing a positive and negative difference from the selected center speed.
-> #### Overview
+Displays the current speed in realtime in kilometres per hour (km/h), miles per hour (mph), or knots<sup>not implemented</sup> (kts), and a graph representing a positive and negative difference from the selected center speed.
+
+> ### Settings
 >
-> + Can display *km/h* and *mph* speed units.
-> > + The speed unit displayed can be set in the ***settings.ini*** file:
-> >
-> > `SpeedUnits=0  ; 0 = KMH, 1 = MPH, 2 = KTS *(not implemented yet)*`
-> + The center speed of the graph can be set in the ***settings.ini*** file:
+> The unit of speed displayed can be changed in the settings. KMH, MPH, or KTS can be displayed. *E.g., 104 km/h*
+> 
+> > `SpeedUnits=0  ; 0 = KMH, 1 = MPH, 2 = KTS`
+> 
+> The center speed (center of the graph) can be changed in the settings. The unit of speed is determined by the setting above. 
 >
-> `CenterSpeed=370 ; Any number between 10 and 1000 in increments of 10, e.g., 150, 160, 170`
-> > The value rendered on the dashboard will match whatever speed unit is selected, e.g., Metric. `CenterSpeed` itself doesn't need to specify km/h, mph, or kn values. 
+> > `CenterSpeed=340  ; 0 - 999`
 >
-> + The speed disply range (+/-) of the graph can be set in the ***settings.ini*** file:
+> The positive and negative difference from the center speed can be changed in the settings. The unit of speed is determined by the setting above. *E.g., +/- 30 km/h*
 >
-> `SpdDisplayRange=010 ; 005, 010, 020, 030, 040, 050, 060, 070, 080, 090, 100`
-> > The value rendered on the dashboard will match whatever speed unit is selected, e.g., Metric. `SpdDisplayRange` itself doesn't need to specify km/h, mph, or kn values.
+> > `SpdDisplayRange=030  ; 0 - 999, 010 increments, e.g., 010, 020, 030`
 
 ### Lap Timing
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.05.png?raw=true" alt="menuscreen"/></p>
 
-+ Displays the current lap time and the current lap or statically displays the last lap time and current lap. Upon crossing the finish line, the last lap time will be displayed along with the last lap delta to the session best delta.
-> #### Overview
+Displays the current lap time and the current lap or statically displays the last lap time and current lap. Upon crossing the finish line, the last lap time will be displayed along with the last lap delta to the session best delta.
+
+> ### Settings
 >
-> + Can display one or two decimal places. *E.g., 2'03.2 or 2'03.27*
-> > + The number of decimal places shown can be set in the ***settings.ini*** file and is inherited from the *SpeedDecimalPlaces* settings. Please note that this screen will not display zero decimal places. If 0 is set in the .ini, 1 decimal place will be used instead:
-> >
+> The number of decimal places displayed can be changed in the settings. Zero, one, or two decimal places can be displayed. Note that this screen will not display zero decimal places. If 0 is set, one decimal place will be used instead. *E.g., 2'03.2 or 2'03.27*
+> 
 > > `SpeedDecimalPlaces=0  ; 0, 1, 2`
 >
-> + Can display the last lap delta for a variable amount of time. *E.g., 2s, 5s, 10s, 15s, 20s*
-> > + The length of time the split is displayed can be set in the ***settings.ini*** file:
-> >
+> The length of time the last lap time and split time are displayed can be changed in the settings. *E.g., 2s, 5s, 10s, 15s, 20s*
+>
 > > `SplitTimeDisplayPeriod=05.0  ; 02.0, 05.0, 10.0, 15.0, 20.0 - time in seconds`
 >
-> + Can display a rolling current lap time or a static last lap time.
-> > + The setting for rolling or static timing can be set in the ***settings.ini*** file:
-> >
+> The currently displayed lap time can be rolling or static and can be changed in the settings. 
+> 
 > > `RollingLapTime=1  ; 0 = disabled, 1 = enabled`
 
 ### Predictive Lap Timing
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.06.png?raw=true" alt="menuscreen"/></p>
 
-+ Displays the current delta to the session best and a graph representing that time graphically.
-> #### Overview
+Displays the current delta to the session best and a graph representing that time visually. The two LEDs are enabled in this mode and represent the difference between the current speed and the speed at the same point in the session best lap. 
+
+> ### Settings
+>
+> This display mode 
 > > Start up
 > > + On the first lap, the *WAITING FOR START LINE* screen will be displayed.
 > >
