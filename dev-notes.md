@@ -1,2 +1,0 @@
-- Lat and Lng values can show +0 and -0
-- Graph element for g bar target (maybe for the graph, too)
