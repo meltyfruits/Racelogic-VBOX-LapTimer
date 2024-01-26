@@ -117,7 +117,9 @@ Displays the current lap time and the current lap or statically displays the las
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.06.png?raw=true" alt="menuscreen"/></p>
 
-Displays the current delta to the session best and a graph representing that time visually. The two LEDs are enabled in this mode and represent the difference between the current speed and the speed at the same point in the session best lap. 
+Displays the current delta to the session best and a graph representing that time visually. The two LEDs are enabled in this mode and represent the difference between the current speed and the speed at the same point in the session best lap.
+
+Optionally, Delta-T Speed Mode can be enabled, which displays current delta to session best and current speed when the current speed is under a specified value. 
 
 > ### Settings
 >
@@ -127,24 +129,23 @@ Displays the current delta to the session best and a graph representing that tim
 >
 > After crossing the start/finish line for the second time, the screen will display the Delta-T graph along with the current delta to session best. The last lap time and delta to session best will display briefly each time the start/finish line is crossed.
 >
-> 
-> > Start up
-> > + On the first lap, the *WAITING FOR START LINE* screen will be displayed.
-> >
-> > + After completing the first lap, the *CREATING REFERENCE LAP* screen will display. A rolling lap time (current lap time) will be displayed as well as two teal-coloured LEDs.
-> >
-> > + After crossing the start line a second time, the current lap delta will be displayed.
-> >
-> > + Each subsequent time the start line is crossed the last lap time and the delta (Delta-T/ΔT) to the seesion best are displayed.
-> + The graph can display a range of time (+/-) in seconds.
-> > + The amount of time displayed on the graph can be set in the ***settings.ini*** file:
-> 
-> `DeltaTBarRange=5  ; 2, 5, 10, 30 - time in seconds`
+> The range of time +/- displayed on the graph can be changed in the settings. *E.g., 2, 5, 10, 30*
 >
-> + The Delta-V LEDs display the Delta Velocity between the current lap and the session best lap, represented in km/h. The LEDs function as a gauge, filling up depending on the Delta-V +/-. 
-> > + The +/- range of the LEDs can be set in the ***settings.ini*** file:
-> 
-> `DeltaVLightRange=5  ; 2, 5, 10 - speed in km/h`
+> > `DeltaTBarRange=5  ; 2, 5, 10, 30 - time in seconds`
+>
+> The range of speed +/- represented by the LEDs can be changed in the settings. *E.g., 2 km/h, 5 km/h, 10 km/h*
+>
+> > `DeltaVLightRange=5  ; 2, 5, 10 - speed in km/h`
+>
+> Delta-T Speed Mode can be enabled in the settings.
+>
+> > `DeltaTSpeedMode=0  ; 0 = disabled, 1 = enabled`
+> >
+> > The maximum reachable speed before Delta-T Speed Mode turns off can be changed in the settings. After the current speed is at least 5 km/h faster than the speed set in the settngs, Delta-T Speed Mode will disable and the Delta-T graph and current delta will be displayed.
+> >
+> > > `DTSpeedModeSpeed=065  ; 0 - 999, only used when Delta-T Speed Mode is enabled`
+> >
+> > 
 
 ### Lateral *g* Bar
 
