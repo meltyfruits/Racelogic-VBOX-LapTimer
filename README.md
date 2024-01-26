@@ -265,9 +265,9 @@ The following settings/features are not and will not be implemented (for mostly 
     * [x] 10 km/h setting
   * [ ] Delta-V LEDs
     * [x] Delta-V calculations
-  * [ ] Delta-T Speed Mode
-    * [ ] Speed setting
-    * [ ] Time Delay setting 
+  * [x] Delta-T Speed Mode
+    * [x] Speed setting
+    * [x] Time Delay setting 
   * [x] Final lap time and split from session best
   * [x] Inverted screen
   * [ ] Outline text
