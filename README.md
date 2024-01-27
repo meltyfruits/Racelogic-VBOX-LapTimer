@@ -141,11 +141,13 @@ Optionally, Delta-T Speed Mode can be enabled, which displays current delta to s
 >
 > > `DeltaTSpeedMode=0  ; 0 = disabled, 1 = enabled`
 > >
-> > The maximum reachable speed before Delta-T Speed Mode turns off can be changed in the settings. After the current speed is at least 5 km/h faster than the speed set in the settngs, Delta-T Speed Mode will disable and the Delta-T graph and current delta will be displayed.
+> > The maximum reachable speed before Delta-T Speed Mode turns off can be changed in the settings. ~After the current speed is at least 5 km/h faster than the speed set in the settngs, Delta-T Speed Mode will disable and the Delta-T graph and current delta will be displayed.~
 > >
 > > > `DTSpeedModeSpeed=065  ; 0 - 999, only used when Delta-T Speed Mode is enabled`
 > >
-> > 
+> > The delay after reaching the target speed can be changed in the settings. 
+> >
+> > > `DTSpeedModeTimeDelay=1.5. ; 0 - 5, .5s increments, e.g., 1.5, 2.0, 2.5, only used when Delta-T Speed Mode is enabled`
 
 ### Lateral *g* Bar
 
