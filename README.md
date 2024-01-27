@@ -59,7 +59,7 @@ Displays the current speed in realtime in kilometres per hour (km/h), miles per 
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.03.png?raw=true" alt="menuscreen"/></p>
 
-Displays this session's highest top speed in kilometres per hour (km/h), miles per hour (mph), or knots<sup>not implemented</sup> (kts). Only displays if `Modes=1` ([see here]())
+Displays this session's highest top speed in kilometres per hour (km/h), miles per hour (mph), or knots<sup>not implemented</sup> (kts). Only displays if `Modes=1` ([see here](https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/README.md#settings))
 
 > ### Settings
 >
@@ -77,7 +77,7 @@ Displays this session's highest top speed in kilometres per hour (km/h), miles p
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.04.png?raw=true" alt="menuscreen"/></p>
 
-Displays the current speed in realtime in kilometres per hour (km/h), miles per hour (mph), or knots<sup>not implemented</sup> (kts), and a graph representing a positive and negative difference from the selected center speed.
+Displays the current speed in realtime in kilometres per hour (km/h), miles per hour (mph), or knots<sup>not implemented</sup> (kts), and a graph representing a positive and negative difference from the selected center speed. Only displays if `Modes=1` ([see here](https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/README.md#settings))
 
 > ### Settings
 >
@@ -153,7 +153,7 @@ Optionally, Delta-T Speed Mode can be enabled, which displays current delta to s
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.08.png?raw=true" alt="menuscreen"/></p>
 
-Displays the current lateral *g* and a graph representing that value visually over a range of +/- 3 *g*. The graph shows a user-specified target.
+Displays the current lateral *g* and a graph representing that value visually over a range of +/- 3 *g*. The graph shows a user-specified target. Only displays if `Modes=1` ([see here](https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/README.md#settings))
 
 > ### Settings
 >
@@ -173,13 +173,13 @@ Displays the current lateral *g* and a graph representing that value visually ov
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.07.png?raw=true" alt="menuscreen"/></p>
 
-Displays the current lateral *g* and the maximum reached lateral *g*.
+Displays the current lateral *g* and the maximum reached lateral *g*. Only displays if `Modes=1` ([see here](https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/README.md#settings))
 
 ### Longitudinal *g* Bar
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.10.png?raw=true" alt="menuscreen"/></p>
 
-Displays the current longitudinal *g* and a graph representing that value visually over a range of +/- 3 *g*. The graph shows a user-specified target.
+Displays the current longitudinal *g* and a graph representing that value visually over a range of +/- 3 *g*. The graph shows a user-specified target. Only displays if `Modes=1` ([see here](https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/README.md#settings))
 
 > ### Settings
 >
@@ -199,13 +199,13 @@ Displays the current longitudinal *g* and a graph representing that value visual
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.09.png?raw=true" alt="menuscreen"/></p>
 
-Displays the current longitudinal *g* and the maximum reached longitudinal *g*.
+Displays the current longitudinal *g* and the maximum reached longitudinal *g*. Only displays if `Modes=1` ([see here](https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/README.md#settings))
 
 ### Lap Count
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.11.png?raw=true" alt="menuscreen"/></p>
 
-Displays the total amount of laps for the session and the current lap.
+Displays the total amount of laps for the session and the current lap. Only displays if `Modes=1` ([see here](https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/README.md#settings))
 
 ### Exclusions
 The following settings/features are not and will not be implemented (for mostly obvious reasons):
