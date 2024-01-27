@@ -153,31 +153,59 @@ Optionally, Delta-T Speed Mode can be enabled, which displays current delta to s
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.08.png?raw=true" alt="menuscreen"/></p>
 
-+ placeholder
+Displays the current lateral *g* and a graph representing that value visually over a range of +/- 3 *g*. The graph shows a user-specified target.
+
+> ### Settings
+>
+> The maximum *g* displayed on the graph can be adjusted +/- 3 *g*. Depending on the Invert Target setting, the graph will shift left or right. This value should be adjusted in .1 increments between 1.0 and 3.0.
+>
+> > `MaxG=1.0. ; 1.0 - 3.0 - 0.1 increments, e.g., 1.1, 1.2, 1.3`
+>
+> The target displayed on the graph can be changed in the settings.
+>
+> > `TargetG=0.5. ; 0.0 - 3.0 - 0.1 increments, e.g., 1.1, 1.2, 1.3`
+>
+> The Invert Target setting determines if the target is displayed on the positive or negative side of the graph.
+>
+> > `InvertedTarget=0  ; 0 = Normal (+), 1 = Inverted (–)`
 
 ### Lateral *g*
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.07.png?raw=true" alt="menuscreen"/></p>
 
-+ placeholder
+Displays the current lateral *g* and the maximum reached lateral *g*.
 
 ### Longitudinal *g* Bar
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.10.png?raw=true" alt="menuscreen"/></p>
 
-+ placeholder
+Displays the current longitudinal *g* and a graph representing that value visually over a range of +/- 3 *g*. The graph shows a user-specified target.
+
+> ### Settings
+>
+> The maximum *g* displayed on the graph can be adjusted +/- 3 *g*. Depending on the Invert Target setting, the graph will shift left or right. This value should be adjusted in .1 increments between 1.0 and 3.0.
+>
+> > `MaxG=1.0. ; 1.0 - 3.0 - 0.1 increments, e.g., 1.1, 1.2, 1.3`
+>
+> The target displayed on the graph can be changed in the settings.
+>
+> > `TargetG=0.5. ; 0.0 - 3.0 - 0.1 increments, e.g., 1.1, 1.2, 1.3`
+>
+> The Invert Target setting determines if the target is displayed on the positive or negative side of the graph.
+>
+> > `InvertedTarget=0  ; 0 = Normal (+), 1 = Inverted (–)`
 
 ### Longitudinal *g*
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.09.png?raw=true" alt="menuscreen"/></p>
 
-+ placeholder
+Displays the current longitudinal *g* and the maximum reached longitudinal *g*.
 
 ### Lap Count
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.11.png?raw=true" alt="menuscreen"/></p>
 
-+ placeholder
+Displays the total amount of laps for the session and the current lap.
 
 ### Exclusions
 The following settings/features are not and will not be implemented (for mostly obvious reasons):
