@@ -117,7 +117,7 @@ Displays the current lap time and the current lap or statically displays the las
 
 <p><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.06.png?raw=true" alt="menuscreen"/></p>
 
-Displays the current delta to the session best and a graph representing that time visually. The two LEDs are enabled in this mode and represent the difference between the current speed and the speed at the same point in the session best lap.
+Displays the current delta to the session best and a graph representing that time visually. The two LEDs are enabled in this mode and represent delta velocity, the difference between the current speed and the speed at the same point in the session best lap.
 
 Optionally, Delta-T Speed Mode can be enabled, which displays current delta to session best and current speed when the current speed is under a specified value. 
 
