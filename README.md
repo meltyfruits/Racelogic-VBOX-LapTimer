@@ -293,8 +293,6 @@ The following settings/features are not and will not be implemented (for mostly 
     * [x] 2 km/h setting
     * [x] 5 km/h setting
     * [x] 10 km/h setting
-  * [ ] Delta-V LEDs
-    * [x] Delta-V calculations
   * [x] Delta-T Speed Mode
     * [x] Speed setting
     * [x] Time Delay setting 
@@ -360,14 +358,12 @@ The following settings/features are not and will not be implemented (for mostly 
 ### Misc
 * [x] 2.4:1 ratio (120mm x 50mm) screens
 * [x] Template screen
-* [x] From scratch Racelogic logo
 * [ ] Device correct colours
 * [ ] Outline text
 * [ ] Documentation
 * [ ] Screen optimization
 * [ ] Code optimization
 * [ ] Add Knots (kn) speed metric
-* [ ] Configure LEDs
 * [x] Update placeholder text (from 9s)
 * [ ] Night mode
 <!-- * [ ] Implement SwitchableProperties -->
