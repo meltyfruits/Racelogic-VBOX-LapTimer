@@ -350,8 +350,8 @@ The following settings/features are not and will not be implemented (for mostly 
 
 ### Sim Support
 * [x] Assetto Corsa
-* [ ] Assetto Corsa Competizione
-* [ ] Automobilista 2
+* [x] Assetto Corsa Competizione *(preliminary)*
+* [x] Automobilista 2 *(preliminary)*
 * [x] iRacing
 * [ ] rFactor 2
       
@@ -369,7 +369,8 @@ The following settings/features are not and will not be implemented (for mostly 
 <!-- * [ ] Implement SwitchableProperties -->
 
 ## Credits
-- VBOX Motorsport (<https://vboxmotorsport.co.uk>)
+- Racelogic Ltd. (<https://www.racelogic.co.uk/>) 
+- VBOX Motorsport (<https://vboxmotorsport.co.uk/>)
 - SimHub by SHWotever <https://www.simhubdash.com/> | [GitHub](https://github.com/SHWotever/SimHub)
 - Members of the SimHub Discord (there is a wealth of knowledge in these people!)
 - JSON auto-formatted with <https://j-brooke.github.io/FracturedJson/>
