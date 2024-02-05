@@ -1,5 +1,4 @@
-# <p align="center">VBOX LapTimer (RACELOGIC) SimHub Dashboard</p>
-## <p align="center">VBOX LapTimer replica dashboard for SimHub</p>
+# <p align="center">VBOX LapTimer SimHub Dashboard</p>
 <p align="center"><img src="https://github.com/meltyfruits/SimHub-VBOX-LapTimer/blob/main/VBOX%20LapTimer%20(Racelogic).djson.png?raw=true" alt="menuscreen"/></p>
 
 A detailed replica of VBOX Motorsport's LapTimer device, sometimes referred to as a Racelogic, for SimHub. To the extent that is possible and reasonable, all display modes of the device are available, including customizable settings such as decimal places, speed unit, inverted screen, and more. The full list of features including how to use the dashboard are below. 
