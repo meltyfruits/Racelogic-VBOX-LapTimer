@@ -371,5 +371,5 @@ The following settings/features are not and will not be implemented (for mostly 
 - Racelogic Ltd. (<https://www.racelogic.co.uk/>) 
 - VBOX Motorsport (<https://vboxmotorsport.co.uk/>)
 - SimHub by SHWotever <https://www.simhubdash.com/> | [GitHub](https://github.com/SHWotever/SimHub)
-- Members of the SimHub Discord (there is a wealth of knowledge in these people!)
+- Members of the SimHub Discord
 - JSON auto-formatted with <https://j-brooke.github.io/FracturedJson/>
