@@ -346,6 +346,10 @@ The following settings/features are not and will not be implemented (for mostly 
   * [x] Inverted target setting
   * [ ] Inverted screen
   * [ ] Outline text
+* [ ] Timer
+  * [ ] Display Mode splash screen
+  * [ ] Inverted screen
+  * [ ] Outline text
 
 ### Sim Support
 * [x] Assetto Corsa
